@@ -1,0 +1,2008 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickCab Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- -------------------------------------------Start top Notification----------------------------------------- -->
+     <div class="container-fluid  top_notification">
+      <h6>We don't provide self drive vehicles for 1 day. Minimum 2 days booking is required with Goa Car Booking.
+      </h6>
+     </div>
+      <!-- -------------------------------------------End top Notification----------------------------------------- -->
+    <!-- ------------------------------------Start Header Section--------------------------------------------- -->
+     <div class="container-fluid sticky-top bg-light">
+      <header class="row p-3 ">
+        <div class="col-lg-2 col-12 left_secton_header">
+          <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="logo">
+            <a href="index.html"><img src="image/logo-v2.jfif" width="80%" alt="Company Logo"></a>
+          </div>
+          <div class="call_icon">
+            <i class="fa-solid fa-phone fs-5"></i>
+          </div>
+        </div>
+        <div class="col-lg-7 nav_section">
+          <ul class="nav nav_list">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Search & Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="self_driven.html">Self Driven Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fleet.html">Fleet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="price.html">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQs</a>
+            </li>
+          </ul>
+         
+        </div>
+        <div class="col-lg-3 text-end number_section">
+          <button class="header_button">
+            <div class="row">
+              <div class="col-4 col-lg-2 d-flex align-items-center">
+                <i class="fa-solid fa-phone fs-5"></i>
+              </div>
+              <div class="col-10 ">
+                <p class="m-0 p-0">Call to book now </p>
+            <h1 class="m-0 p-0">+916344738901</h1>
+              </div>
+            </div>
+          </button>
+        </div>
+  
+      </header>
+     </div>
+      <!-- ------------------------------------End Header Section--------------------------------------------- -->
+   
+     <!-- --------------------------------Start Most Booked Cars Section------------------------------------------- -->
+     <div class="container">
+        <div class="row text-center mt-5 most_booked">
+          <h1 class="fw-bold">Our Fleet of Cars</h1>
+        <div class="text-center">
+          <p>
+            We have a wide range of self drive cars from all segments starting from Hatchbacks, Sedans to Off- <br>Road. Give us a call to book a self drive car directly or book through our online booking system. 
+               
+          </p>
+        </div>
+          
+        </div>
+       <div class="d-flex">
+        <div >
+            <p>Car Type :</p>
+        </div>
+        <div class="dropdown_Category_btn">
+            <select onchange="toggleDiv(this.value)">
+              <option value="1">View All</option>
+              <option value="2">Hatchback</option>
+              <option value="3">Sedan</option>
+              <option value="4">Compact SUV & SUV</option>
+              <option value="5">Luxury</option>
+              <option value="6">Off-Road</option>
+            </select>
+          </div>
+       </div>
+   
+  
+        <div id="content1" class="content active">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_01.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">
+                  Hyundai i20 New Model with Panoramic Sunroof – Automatic
+                </p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(7 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_02.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Hyundai Creta New Model – Manual</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(14 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_03.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Brezza – Automatic – New Model</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(27 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_04.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Suzuki Celerio – Automatic – New Model</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(18 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="content2" class="content">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_05.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Suzuki Celerio</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(7 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_06.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Suzuki Baleno</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(14 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_07.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Suzuki WagonR</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(27 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_08.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Hyundai i10</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(18 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="content3" class="content">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_9.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Suzuki Dzire – Automatic</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(7 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_10.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Hyundai Verna New Automatic – New Model</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(14 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_11.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Suzuki Ciaz</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(27 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_12.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Hyundai Verna</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(18 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="content4" class="content">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_14.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Hyundai Creta New Model – Manual</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(7 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_03.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Maruti Brezza – Automatic – New Model</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(14 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_15.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Hyundai Alcazar – Automatic</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(27 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_16.webp" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Kia Seltos – Automatic</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(18 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="content5" class="content">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_18.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Audi A4</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(7 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_19.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Audi Q3</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(14 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_20.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Mercedes C Class</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(27 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="content6" class="content">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_22.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Mahindra Thar New Model – Hard Top – Automatic</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(7 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_23.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">
+                  Mahindra Thar New Convertible – Open Roof – Automatic
+                </p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(14 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_23.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Mahindra Thar New Model (open roof)</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(27 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-lg-3">
+                <img src="image/category_car_24.jpg" width="90%" alt="" />
+              </div>
+              <div class="col-lg-6">
+                <p class="fs-4">Mahindra Thar – New Model</p>
+                <ul class="rating">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li class="text-muted">(18 reviews)</li>
+                </ul>
+                <p class="fw-bold" style="color: #25d370">
+                  Minimum 2 days booking
+                </p>
+                <div class="row show_content">
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">Automatic</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-suitcase-rolling pe-2"></i>
+                    <p class="m-0 p-0">3 Luggage</p>
+                  </div>
+                  <div
+                    class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                  >
+                    <i class="fa-solid fa-grip-lines pe-2"></i>
+                    <p class="m-0 p-0">5 Seats</p>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <div class="row mt-3">
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gauge pe-2"></i>
+                      <p class="m-0 p-0">Mileage - 16km/Ltr.</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-gas-pump pe-2"></i>
+                      <p class="m-0 p-0">Petrol</p>
+                    </div>
+                    <div
+                      class="col-4 m-0 p-0 d-flex align-items-center car_specification_icon"
+                    >
+                      <i class="fa-solid fa-box pe-2"></i>
+                      <p class="m-0 p-0">Fuel capacity - 40Ltr.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <button class="toggleButton">
+                    <span class="hover_btn">View all details</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-3 contact_btn">
+                <button>
+                  <i class="fa-solid fa-phone"></i
+                  ><span class="hover_none"> CALL TO BOOK</span>
+                  <span class="hover_show">VIEW NUMBER</span>
+                </button>
+                <button>
+                  <i class="fa-brands fa-whatsapp"></i> WHATSAPP TO BOOK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- --------------------------------End Most Booked Cars Section------------------------------------------- -->
+ 
+      <div class="container">
+        <div class="row text-center mt-5">
+          <h4 class="fw-bold">Self drive cars in Goa by location</h4>
+          <p style="color: #828289">
+            Goa Airport | Candolim | Calangute | Baga | Arpora | Anjuna | Vagator
+            | Mapusa | Morjim | Ashwem | Arambol | Sholim | Porvorim | Vasco |
+            Panjim
+          </p>
+        </div>
+      </div>
+      <!-- --------------------------------Start Footer  Section------------------------------------------- -->
+ <div class="container">
+    <div class="row mt-5 footer">
+      <div class="col-lg-4">
+        <h6>Self drive cars</h6>
+        <ul class="footer_list">
+          <li><a href="">Maruti Suzuki Swift</a></li>
+          <li><a href="">Hyundai Creta</a></li>
+          <li><a href="">Hyundai i10</a></li>
+          <li><a href="">Hyundai i20</a></li>
+          <li><a href="">Maruti Suzuki Ciaz</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6>Information</h6>
+        <ul class="footer_list">
+          <li><a href="">Contact us</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">FAQs</a></li>
+          <li><a href="">Customer Stories</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6>Newsletter</h6>
+       <p>Subscribe to get latest rates and updates delivered directly to your inbox</p>
+       <div class="mb-3 d-flex">
+        <input type="text" class="form-control border-0" id="formGroupExampleInput" placeholder="Your email address">
+        <button class="footer_btn">SUBSCRIBE</button>
+      </div>
+      <div class="row">
+         <div class="col-1 footer_security">
+          <i class="fa-solid fa-lock"></i>
+         </div>
+         <div class="col-11 footer_security">
+          <p>Subscribe securely. We don't share your data with anybody.</p>
+         </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------------------------End  Footer  Section------------------------------------------- -->
+   <!-- --------------------------------Start Copyright  Section------------------------------------------- -->
+    <div class="container">
+      <div class="row mt-5">
+        <p class="copyright_section">© Copyright 2012 - 2024 All Rights Reserved | No part of the website or it's contents including but not limited to graphics, logo, identity, images, contents should be copied in any digital or physical format without taking proper legal permissions from Goa Car Booking. To discuss anything related to legal matters, permissions and otherwise, get in touch with us by filing your request on our contact page & mention Legal Matter in subject line. All contents and graphics/images produced by Goa Car Booking are copyrighted and will require permission before usage as per intellectual property laws.</p>
+      </div>
+      <div class="row">
+        <p class="text-center" style="color: #828289;">site by <span class="text-dark fw-bold">fineoutput</span></p>
+      </div>
+      </div>
+    <!-- --------------------------------End  Copyright  Section------------------------------------------- -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+  <script src="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+  "></script>
+  <script src="script.js"></script>
+</body>
+</html>
