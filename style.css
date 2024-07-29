@@ -38,9 +38,11 @@
     color: var(--main-topic);
     font-size: 1.1rem;
     margin-left: 1.5rem;
+    transition: .5s;
 }
 .nav_list a:hover{
-    color: var(--main-topic);
+    color: var(--theme-color);
+
 }
 .header_button{
     padding: .3rem .8rem;
@@ -49,6 +51,12 @@
     color:white;
     border: none;
     border-radius: 50px;
+    transition: all 0.8s ease;
+}
+.header_button:hover{
+    background-color: white;
+    color: var(--theme-color);
+    border: 1px solid var(--theme-color);
 }
 .header_button h1{
     font-size: 1rem;
@@ -109,6 +117,7 @@
         margin-bottom: 5px !important;
     
       } 
+     
       .nav-link{
         margin: 0% !important;
       }
@@ -169,12 +178,19 @@
 
 .search_btn{
     padding: .5rem 1rem;
-    background-color: var(--theme-color);
+    background-color: transparent;
     font-size: 1.5rem;
     color:white;
     font-weight: 500;
-    border: none;
+    border: 1px solid white;
     border-radius: 50px;
+    transition:  0.5s ease;
+}
+.search_btn:hover{
+    background-color: var(--theme-color);
+    color: white;
+    border:1px solid var(--theme-color);
+  
 }
 .info_icon{
     color: var(--theme-color);
@@ -202,7 +218,8 @@
    
 }
 .carname p{
-    width: 30%;
+    display: inline-block ;
+    text-align: center;
     background-color:white;
     padding: .5rem;
     color: black;
@@ -250,19 +267,30 @@
     color: green;
 }
 .contact_btn button{
-    background-color: var(--theme-color);
-    border: none;
+    background-color: white;
+    color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+   
     width: 15rem;
     padding: .5rem 1rem;
     border-radius: 20px;
-    color: white;
+   
     font-weight: 500;
     margin-top: 1.5rem;
+    transition: all 0.8s ease;
 }
-.car_specification_icon i{
-    color: var(--theme-color);
-    font-size: 1.5rem;
+.contact_btn button:hover{
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    color: white;
+}
+.car_specification_icon{
+    transition: transform 0.3s ease; 
+    cursor: pointer;
    
+}
+.car_specification_icon:hover{
+    transform: translateY(-5px);
 }
 .car_specification_icon p{
     color: #828289;
@@ -298,8 +326,19 @@ button:hover .hover_show {
     }
 .booking_step_icon i{
     margin-top: 3rem;
-color: var(--theme-color);
+color: white;
 font-size: 3rem;
+background-color:var(--theme-color);
+padding: 1rem;
+border-radius: 10px;
+transition: transform 0.3s ease;
+transition: all 0.3s ease;
+}
+.booking_step_icon i:hover{
+    color: var(--theme-color);
+    border: 1px solid var(--main-topic);
+    background-color: white;
+    transform: translateY(-10px);
 }
 .booking_step_icon p{
     color: var(--main-topic);
@@ -328,7 +367,15 @@ font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
 
+}
+.self_drive_icon:hover{
+    background-color: white;
+    border: 1px solid var(--main-topic);
+}
+.self_drive_icon:hover  i{
+color: var(--theme-color);
 }
 .self_drive_icon i{
     font-size: 2.5rem;
